@@ -28,3 +28,5 @@ Repository: CRAN
 Date/Publication: 2024-11-25 19:32:11 UTC
 Roxygen: list(markdown = TRUE)
 VignetteBuilder: knitr
+URL: https://github.com/deckardt98/CRThtePower
+BugReports: https://github.com/deckardt98/CRThtePower/issues
