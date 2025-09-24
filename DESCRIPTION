@@ -1,0 +1,30 @@
+Package: CRThtePower
+Title: Sample Size and Power Calculations for Three-Level Cluster Randomized Trials
+Version: 1.0.0
+Date: 2024-11-25
+Authors@R: c(person("Jiaqi","Tong", role = c("aut", "cre"),
+            email = "jiaqi.tong@yale.edu"),
+            person("Hao", "Wang", role = "aut",
+            email = "hao.wang.hw575@yale.edu"),
+            c(person("Zizhong","Tian", role = "aut",
+            email = "zqt5121@psu.edu"),
+            person("Fan", "Li", role = "aut",
+            email = "fan.f.li@yale.edu"))
+Maintainer: Jiaqi Tong <jiaqi.tong@yale.edu>
+Description: To implement sample size calculation and power methods for three-level and stepped wedge cluster randomized trials, enabling testing of heterogeneous treatment effects and average treatment effects under various randomization levels and stepped wedge designs. These methods are based on the frameworks proposed in two papers entitled “Designing three-level cluster randomized trials to assess treatment effect heterogeneity” and “Planning stepped wedge cluster randomized trials to detect treatment effect heterogeneity” by Li et al.
+Depends: R (>= 4.4.2)
+License: LGPL (>= 2.1)
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Suggests: knitr, rmarkdown, roxygen2 
+Imports: MASS
+NeedsCompilation: no
+Packaged: 2024-11-25 19:32:11 UTC; Jiaqi Tong
+Author: Jiaqi Tong [aut, cre],
+        Hao Wang [aut],
+        Zizhong Tian [aut],
+        Fan Li [aut]
+Repository: CRAN
+Date/Publication: 2024-11-25 19:32:11 UTC
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
