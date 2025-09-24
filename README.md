@@ -29,7 +29,8 @@ The released version of CRThtePower can be installed from
 [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("CRThtePower")
+# install.packages("devtools") # Run this line if you don't have devtools installed
+devtools::install_github("deckardt98/CRThtePower")
 ```
 
 ## Example
