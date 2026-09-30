@@ -20,8 +20,10 @@ The following key functions are included:
 - `sspower.SW`: Calculates the required number of clusters or the achieved power for SW-CRTs with a univariate effect modifier.
 - `sspower.multi.SW`: Extends the above function to handle multivariate effect modifiers for SW-CRTs.
 
-The sample size and power calculation methodologies for three-level CRTs are formalized in the paper "Planning Three-Level Cluster Randomized Trials to Assess Treatment Effect Heterogeneity" by Li et al. 
-Similarly, the methodologies for SW-CRTs are described in the paper "Planning Stepped Wedge Cluster Randomized Trials to Detect Treatment Effect Heterogeneity" by Li et al.
+The sample size and power calculation methods are described in the following papers:
+
+- **Three-level CRTs:** Fan Li, Xinyuan Chen, Zizhong Tian, Denise Esserman, Patrick J. Heagerty, and Rui Wang. “[Designing three-level cluster randomized trials to assess treatment effect heterogeneity](https://doi.org/10.1093/biostatistics/kxac026).” *Biostatistics* (2023), **24**(4), 833–849.
+- **SW-CRTs:** Fan Li, Xinyuan Chen, Zizhong Tian, Rui Wang, and Patrick J. Heagerty. “[Planning stepped wedge cluster randomized trials to detect treatment effect heterogeneity](https://doi.org/10.1002/sim.9990).” *Statistics in Medicine* (2024), **43**(5), 890–911.
 
 ## Installation
 
